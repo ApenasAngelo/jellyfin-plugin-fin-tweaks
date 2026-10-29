@@ -1,0 +1,9 @@
+{
+  "category": "General",
+  "description": "Small fixes to the Jellyfin web client, each one with its own switch in the admin page. Only the tweaks turned on are sent to the browser. Requires File Transformation.",
+  "guid": "0a8f6f8e-5c3b-4d52-9b8e-3f1f2d6c7e41",
+  "name": "Fin Tweaks",
+  "overview": "Small web client tweaks, each one with its own switch.",
+  "owner": "ApenasAngelo",
+  "targetAbi": "12.4.0.0"
+}
