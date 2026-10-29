@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <JellyfinVersion>12.4.0</JellyfinVersion>
+    <RootNamespace>Jellyfin.Plugin.FinTweaks</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>1.0.0.0</Version>
+    <Authors>ApenasAngelo</Authors>
+    <RepositoryUrl>https://github.com/ApenasAngelo/jellyfin-plugin-fin-tweaks</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Provided by the server at runtime: compile against them, do not ship them. -->
+    <PackageReference Include="Jellyfin.Controller" Version="$(JellyfinVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Jellyfin.Model" Version="$(JellyfinVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" ExcludeAssets="runtime" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Configuration\configPage.html" />
+    <EmbeddedResource Include="Web\**\*.js" />
+  </ItemGroup>
+
+</Project>
