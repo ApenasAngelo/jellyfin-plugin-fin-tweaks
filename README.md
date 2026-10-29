@@ -10,7 +10,7 @@ It is the companion of [Home Screen Sections Encore](https://github.com/ApenasAn
 
 | Tweak | What it does | Status |
 |---|---|---|
-| Global search | The search button always searches the whole server, instead of only the library you are browsing | planned |
+| Global search | The search button always searches the whole server, instead of only the library you are browsing | available |
 
 ## How it works
 
@@ -23,7 +23,7 @@ It is the companion of [Home Screen Sections Encore](https://github.com/ApenasAn
 
 1. Install [File Transformation](https://github.com/IAmParadox27/jellyfin-plugin-file-transformation) (required).
 2. In Jellyfin, go to **Dashboard → Plugins → Repositories** and add
-   `https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugins/main/manifest.json` (releases are not published yet).
+   `https://raw.githubusercontent.com/ApenasAngelo/jellyfin-plugins/main/manifest.json`.
 3. Install **Fin Tweaks** from the **Catalog** and restart Jellyfin.
 4. Turn on the tweaks you want in **Dashboard → Plugins → Fin Tweaks** and refresh the browser.
 
