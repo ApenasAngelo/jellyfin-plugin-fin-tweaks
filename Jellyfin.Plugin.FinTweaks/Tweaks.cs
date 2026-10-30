@@ -11,6 +11,7 @@ public static class Tweaks
     private static readonly (string Script, Func<PluginConfiguration, bool> IsEnabled)[] s_all =
     {
         ("global-search", c => c.GlobalSearch),
+        ("wheel-axis-lock", c => c.WheelAxisLock),
     };
 
     public static IEnumerable<string> Enabled(PluginConfiguration config)
